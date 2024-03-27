@@ -101,7 +101,7 @@
     <groupId>io.cucumber</groupId>
     <artifactId>gherkin</artifactId>
     <version>27.0.0</version>
-</dependency>-->
+</dependency> -->
 <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 	<dependency>
     <groupId>tech.grasshopper</groupId>
