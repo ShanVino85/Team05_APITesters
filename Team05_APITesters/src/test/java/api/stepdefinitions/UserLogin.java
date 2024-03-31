@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import api.utils.RestUtils;
-import api.utils.TokenHolder;
+import api.utils.IdHolder;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,6 +21,7 @@ public class UserLogin extends RestUtils {
 	RequestSpecification request;
 	ResponseSpecification responseSpec;
 	Response response;
+	public static String token;
 	
 	@Given("Add UserLogin Payload")
 	public void add_user_login_payload() throws FileNotFoundException, IOException {
@@ -28,13 +29,16 @@ public class UserLogin extends RestUtils {
 		request=given().spec(requestSpecification()).body( UserLogindata.dataBuild());
 		}
 	
- @When("Admin calls Post Https method  with valid endpoint")
+  @When("Admin calls Post Https method  with valid endpoint")
 	public void admin_calls_post_https_method_with_valid_endpoint() {
 	
 	 response = request.when().post(routes.getString("Post_UserLoginurl")).then().log().all().extract().response();
-	 System.out.println(response);
-		TokenHolder.token =  UserKeyJson(response,"token");
-		System.out.println(TokenHolder.token);	
+	
+		IdHolder.token =  UserKeyJson(response,"token");
+		  System.out.println("Token ="  +IdHolder.token);
+	/* token=UserKeyJson(response,"token");
+		System.out.println("Token ="  +token);	*/
+		
 	}
 
 	@Then("Admin receives {int} created with auto generated token")
@@ -50,7 +54,7 @@ public class UserLogin extends RestUtils {
 
 	@Then("Admin receives {int} unauthorized")
 	public void admin_receives_unauthorized(Integer int1) {
-		assertEquals(response.getStatusCode(),401);
+		assertEquals(401,response.getStatusCode());
 	}
 
 	@Given("Admin creates request with invalid credentials")
@@ -60,7 +64,7 @@ public class UserLogin extends RestUtils {
 
 	@Then("Admin receives {int} Bad request")
 	public void admin_receives_bad_request(Integer int1) {
-		assertEquals(response.getStatusCode(),401);
+		assertEquals(400,response.getStatusCode());
 	}
 
 

@@ -18,7 +18,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class UserLogout extends RestUtils {
-	
+
 	Logger logger = LogManager.getLogger("UserLogout.java");
 
 	RequestSpecification request;
@@ -29,7 +29,7 @@ public class UserLogout extends RestUtils {
 	@Given("Admin sets authorization to bearer Token with token")
 	public void admin_sets_authorization_to_bearer_token_with_token() throws FileNotFoundException {
 	
-		request = given().spec(requestSpecification()).header("Authorization","Bearer "+ IdHolder.bearerToken);
+		request = given().spec(requestSpecification()).header("Authorization","Bearer "+ IdHolder.token);
 		
 	}
 	
@@ -47,7 +47,6 @@ public class UserLogout extends RestUtils {
 		}
 		logger.info("User has logged out successfully");
 	}
-	
 	//logout2 ----404 Not found-----
 	@When("Admin calls Get Https method with invalid endpoint")
 	public void admin_calls_get_https_method_with_invalid_endpoint() {
@@ -72,3 +71,4 @@ public class UserLogout extends RestUtils {
 	}
 
 }
+

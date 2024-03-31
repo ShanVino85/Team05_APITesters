@@ -18,3 +18,4 @@ Feature: User Logout
     Given Admin sets No authorization 
     When Admin calls Get Https method with valid endpoint
     Then Admin receives 401 unauthorized
+
