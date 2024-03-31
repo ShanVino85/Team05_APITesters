@@ -71,3 +71,4 @@ public class UserLogout extends RestUtils {
 	}
 
 }
+
