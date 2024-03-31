@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import api.utils.RestUtils;
-import api.utils.TokenHolder;
+import api.utils.IdHolder;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,16 +25,21 @@ public class UserLogin extends RestUtils {
 	@Given("Add UserLogin Payload")
 	public void add_user_login_payload() throws FileNotFoundException, IOException {
 		
-		request=given().spec(requestSpecification()).body( UserLogindata.dataBuild());
+		request=given()
+				.spec(requestSpecification())
+				.body( UserLogindata.dataBuild());
 		}
 	
  @When("Admin calls Post Https method  with valid endpoint")
 	public void admin_calls_post_https_method_with_valid_endpoint() {
 	
-	 response = request.when().post(routes.getString("Post_UserLoginurl")).then().log().all().extract().response();
-	 System.out.println(response);
-		TokenHolder.token =  UserKeyJson(response,"token");
-		System.out.println(TokenHolder.token);	
+	 response = request.when()
+			 .post(routes.getString("Post_UserLoginurl"))
+			 .then().log().all().extract().response();
+	    System.out.println(response);
+		IdHolder.token =  UserKeyJson(response,"token");
+		System.out.println(IdHolder.token);	
+		RestUtils.BearerToken=token;
 	}
 
 	@Then("Admin receives {int} created with auto generated token")
@@ -56,6 +61,7 @@ public class UserLogin extends RestUtils {
 	@Given("Admin creates request with invalid credentials")
 	public void admin_creates_request_with_invalid_credentials() throws FileNotFoundException, IOException {
 		request=given().spec(requestSpecification()).body( UserLogindata.invaliddataBuild());
+		System.out.println(request);
 	}
 
 	@Then("Admin receives {int} Bad request")

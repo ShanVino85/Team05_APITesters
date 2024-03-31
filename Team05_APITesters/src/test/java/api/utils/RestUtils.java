@@ -22,6 +22,7 @@ public class RestUtils {
 	public static RequestSpecification req;
 	public static Response response;
 	public static String token;
+	public static String BearerToken="0";
 	
 
 	public static ResourceBundle routes = ResourceBundle.getBundle("Routes");

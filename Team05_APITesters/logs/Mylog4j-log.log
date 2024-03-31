@@ -1,0 +1,67 @@
+['INFO ]2024-03-31 16:44:53,791(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 16:44:53,798(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:44:58,445(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 16:44:58,446(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:45:00,769(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:45:03,503(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:45:05,023(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:53:06,206(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 16:53:06,214(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:53:10,400(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 16:53:10,401(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:53:11,340(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:53:12,343(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:53:13,771(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:56:57,081(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 16:56:57,086(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:56:58,165(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 16:56:59,883(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 16:56:59,883(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 16:57:03,387(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:57:05,826(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 16:57:07,389(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:02:13,530(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:02:13,534(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:02:16,352(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 17:02:16,352(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:02:20,727(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:02:24,825(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:07:11,760(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:07:11,767(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:07:12,280(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:07:13,259(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 17:07:13,259(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:07:15,771(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:07:21,720(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:12:08,235(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:12:08,241(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:12:09,478(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:12:10,925(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 17:12:10,925(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:12:11,484(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:16:25,512(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:16:25,518(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:16:28,265(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:16:29,937(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 17:16:29,938(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:16:31,281(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:20:41,761(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:20:46,516(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:20:51,492(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:24:07,151(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:24:07,157(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:24:08,044(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:24:09,164(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory & additional Fields
+['INFO ]2024-03-31 17:24:09,165(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:24:09,726(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:24:10,098(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:24:11,081(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:24:12,930(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 17:28:10,416(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:28:10,427(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:36:37,969(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Create User with Mandatory Fields
+['INFO ]2024-03-31 17:36:37,982(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 17:36:39,417(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Schema Validation is successful
+['INFO ]2024-03-31 17:52:36,817(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 18:01:00,316(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-Request to get all Roles
+['INFO ]2024-03-31 18:01:01,467(yyyy-MM-ddHH:mm:ss.SSS][main]api.stepdefinitions.UserModuleSteps1)-User Get Roles schema validation successful
