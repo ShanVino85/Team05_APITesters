@@ -30,6 +30,100 @@ public class ProgramBatch_SD extends RestUtils {
 	Response response;
 	JSONObject requestBody;
 
+	// NEGATIVE CASES - NO Auth
+	@Given("Admin sets no Authorization")
+	public void admin_sets_no_authorization() {
+		TokenHolder.token = "";
+	}
+	// NEGATIVE CASES - POST request
+	@When("Admin sends POST HTTPS Request with endpoint of program batch without Authorization")
+	public void admin_sends_post_https_request_with_endpoint_without_auth() {
+		response = request.when()
+				.post(routes.getString("Post_CreateBatch")).then().log().all().extract().response();
+	}
+	
+	// NEGATIVE CASES - NO Auth Get All Batches
+	@Given("Admin creates GET Request to retrieve all batches")
+	public void admin_creates_get_request_to_retrieve_all_batches() throws FileNotFoundException {
+		request = given().spec(requestSpecification());
+	}
+
+	@When("Admin sends HTTPS Request with endpoint to retrieve all batches")
+	public void admin_sends_https_request_with_endpoint_to_retrieve_all_batches() {
+		response = request.when().get(routes.getString("Get_AllBatch")).then().log().all().extract().response();
+	}
+
+	@Then("Admin receives {int} status with error message Unauthorized.")
+	public void admin_receives_status_with_error_message_unauthorized(int actualStatusCode) {
+		assertEquals(response.getStatusCode(), actualStatusCode);
+	}
+
+	// Negative Case - Get Request by Batch Name
+	@Given("Admin creates GET Request with batch Name")
+	public void admin_creates_get_request_with_batch_name() throws FileNotFoundException {
+		request = given().spec(requestSpecification());
+	}
+
+	@When("Admin sends HTTPS Request with endpoint to retrieve batch by batch name")
+	public void admin_sends_https_request_with_endpoint_to_retrieve_batch_by_batch_name() {
+		String endpoint = routes.getString("Get_BatchByBatchName");
+		response = request.pathParam("batchName", "").get(endpoint).then().log().all().extract()
+				.response();
+	}
+
+	// Negative Case - Get Request by Program Id
+	@Given("Admin creates GET Request with program id")
+	public void admin_creates_get_request_with_program_id() throws FileNotFoundException {
+		request = given().spec(requestSpecification());
+	}
+
+	@When("Admin sends HTTPS Request with endpoint with program id")
+	public void admin_sends_https_request_with_endpoint_with_program_id() {
+		String endpoint = routes.getString("Get_BatchByProgramId");
+		response = request.pathParam("programId", IdandNameHolder.programId).get(endpoint).then().log().all().extract()
+				.response();
+	}
+	
+	// Negative Case - Put Request with valid Batch id and Data
+	@Given("Admin creates PUT Request with valid BatchId and Data for put request")
+	public void admin_creates_put_request_with_endpoint_with_valid_batch_id_and_data_for_put_request() throws IOException {
+		// First login and create new bacth and store the batch id and try to update that batch details without no auth
+		UserLogin user = new UserLogin();
+		user.add_user_login_payload();
+		user.admin_calls_post_https_method_with_valid_endpoint();
+		// Build the request body including the programId attribute
+		requestBody = new JSONObject(cbd.noauth_dataBuild());
+		requestBody.put("programId", IdandNameHolder.programId);
+		// Set the request body as a string and create the request
+		request = given().spec(requestSpecification()).body(requestBody.toString());
+		response = request.header("Authorization", "Bearer " + TokenHolder.token).when()
+				.post(routes.getString("Post_CreateBatch")).then().log().all().extract().response();
+		int i = Integer.parseInt(UserKeyJson(response, "batchId"));
+		TokenHolder.batchId = i;
+		TokenHolder.batchName = UserKeyJson(response, "batchName");
+		TokenHolder.token = "";
+		// Build the request body including the programId attribute
+		requestBody = new JSONObject(cbd.noauth_updatedataBuild());
+		requestBody.put("programId", IdandNameHolder.programId);
+		// Set the request body as a string and create the request
+		request = given().spec(requestSpecification()).body(requestBody.toString());
+	}
+	
+	@When("Admin sends HTTPS Request  with endpoint with valid BatchId and Data for put request")
+	public void admin_sends_https_request_with_endpoint_with_valid_batch_id_and_data() {
+		response = request.header("Authorization", "Bearer " + TokenHolder.token).
+				when().pathParam("batchId", TokenHolder.batchId).when().put(routes.getString("Put_Batch")).then().log().all()
+				.extract().response();
+	}
+	
+	@When("Admin sends HTTPS Request with endpoint for delete request")
+	public void no_auth_delete_batch_by_batchID() {
+		String endpoint = routes.getString("Delete_Batch");
+		response = request.pathParam("id", TokenHolder.batchId)
+				.delete(endpoint).then().log().all().extract().response();
+	}
+
+	// POSITIVE CASES
 	// Set Background
 	@Given("Admin sets Authorization to Bearer Token.")
 	public void admin_sets_authorization_to_bearer_token() throws FileNotFoundException, IOException {
@@ -59,29 +153,29 @@ public class ProgramBatch_SD extends RestUtils {
 
 	@Then("Admin receives {int} Created Status with response body of Post Batch request")
 	public void admin_receives_created_status_with_response_body_of_post_batch_request(int actualStatusCode) {
-		assertEquals(response.getStatusCode(), actualStatusCode);		
+		assertEquals(response.getStatusCode(), actualStatusCode);
 	}
-	
+
 	@Then("Validate the Schema after post batch request")
 	public void validate_the_schema_after_post_batch_request() {
 		// schema Validation
-	   response.then().assertThat().body(matchesJsonSchemaInClasspath("Schemas/ProgramBatchModule/createBatch.json"));
+		response.then().assertThat().body(matchesJsonSchemaInClasspath("Schemas/ProgramBatchModule/createBatch.json"));
 	}
 
 	@Then("Validate the header after post batch request")
 	public void validate_the_header_after_post_batch_request() {
-		assert response.getHeader("Content-Type") != null && response.getHeader("Content-Type").contains("application/json");
+		assert response.getHeader("Content-Type") != null
+				&& response.getHeader("Content-Type").contains("application/json");
 	}
-
 
 	// Get ALL BATCHES
 	@Given("Admin creates GET Request of program batch of all batches")
-	public void admin_creates_get_request_of_program_batch_of_all_batches() throws FileNotFoundException {
+	public void get_all_batches_pre() throws FileNotFoundException {
 		request = given().spec(requestSpecification());
 	}
 
 	@When("Admin sends HTTPS Request with endpoint of program batch of all batches")
-	public void admin_sends_https_request_with_endpoint_of_program_batch_of_all_batches() {
+	public void get_all_batches_when() {
 		response = request.header("Authorization", "Bearer " + TokenHolder.token).when()
 				.get(routes.getString("Get_AllBatch")).then().log().all().extract().response();
 	}
@@ -154,7 +248,7 @@ public class ProgramBatch_SD extends RestUtils {
 	}
 
 	@When("Admin sends HTTPS Request with endpoint with batch name")
-	public void admin_sends_https_request_with_endpoint_with_batch_name() {
+	public void get_batch_by_batch_name() {
 		String endpoint = routes.getString("Get_BatchByBatchName");
 		response = request.header("Authorization", "Bearer " + TokenHolder.token)
 				.pathParam("batchName", TokenHolder.batchName).get(endpoint).then().log().all().extract().response();
@@ -191,7 +285,7 @@ public class ProgramBatch_SD extends RestUtils {
 	}
 
 	@When("Admin sends HTTPS Request with endpoint with valid program id")
-	public void admin_sends_https_request_with_endpoint_with_valid_program_id() {
+	public void get_batch_by_program_id() {
 		String endpoint = routes.getString("Get_BatchByProgramId");
 		response = request.header("Authorization", "Bearer " + TokenHolder.token)
 				.pathParam("programId", IdandNameHolder.programId).get(endpoint).then().log().all().extract()
@@ -205,7 +299,7 @@ public class ProgramBatch_SD extends RestUtils {
 
 	// PUT Request BY VALID Batch Id and Data
 	@Given("Admin creates PUT Request with valid BatchId and Data")
-	public void admin_creates_put_request_with_valid_batch_id_and_data() throws FileNotFoundException, IOException {
+	public void put_request_valid_batchID_data_given() throws FileNotFoundException, IOException {
 		// Build the request body including the programId attribute
 		requestBody = new JSONObject(cbd.put_dataBuild());
 		requestBody.put("programId", IdandNameHolder.programId);
@@ -214,7 +308,7 @@ public class ProgramBatch_SD extends RestUtils {
 	}
 
 	@When("Admin sends HTTPS Request with endpoint with PUT in request body")
-	public void admin_sends_https_request_with_endpoint_with_put_in_request_body() {
+	public void put_request_valid_batchID_data_when() {
 		response = request.header("Authorization", "Bearer " + TokenHolder.token)
 				.pathParam("batchId", TokenHolder.batchId).when().put(routes.getString("Put_Batch")).then().log().all()
 				.extract().response();
