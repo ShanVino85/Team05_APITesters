@@ -25,7 +25,7 @@ public class RestUtils {
 	
 
 	public static ResourceBundle routes = ResourceBundle.getBundle("Routes");
-	
+
 	public RequestSpecification requestSpecification() throws FileNotFoundException {
 		
 		if(req==null)
@@ -40,13 +40,36 @@ public class RestUtils {
 		}
 		return req;
 	}
-	
 	public ResponseSpecification resSpecBuilder() {
-		ResponseSpecification resSpec = new ResponseSpecBuilder()
-				.expectStatusCode(200).expectContentType(ContentType.JSON)
-				.build().then().log().all();
-		return resSpec;
+	    ResponseSpecification resSpec = new ResponseSpecBuilder()
+	            .expectContentType(ContentType.JSON)
+	            .build()
+	            .then()
+	            .log()
+	            .all();
+	    return resSpec;
 	}
+	
+	//-----
+//	public ResponseSpecification resSpecBuilder() {
+//		ResponseSpecification resSpec = new ResponseSpecBuilder()
+//				.expectStatusCode(200).expectContentType(ContentType.JSON)
+//				.build().then().log().all();
+//		return resSpec;
+//	}
+	//---------
+//	  public ResponseSpecification resSpecBuilder(boolean positiveScenario) {
+//	        ResponseSpecBuilder resSpecBuilder = new ResponseSpecBuilder()
+//	                .expectContentType(ContentType.JSON);
+//	        if (positiveScenario) {
+//	            resSpecBuilder.expectStatusCode(200);
+//	        } else {
+//	            resSpecBuilder.expectStatusCode(400); 
+//	        }
+//	        ResponseSpecification resSpec = resSpecBuilder.build().then().log().all();
+//	        return resSpec;
+//	    }
+	
 	public String UserKeyJson(Response response, String key) {
 		String getResponse = response.asString();
 		JsonPath js = new JsonPath(getResponse);

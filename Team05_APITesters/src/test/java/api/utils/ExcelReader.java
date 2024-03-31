@@ -17,7 +17,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelReader {
 
 	public FileInputStream fi;
-	//public FileOutputStream fo;
 	public XSSFWorkbook workbook;
 	public XSSFSheet sheet;
 	public XSSFCell cell;
@@ -26,9 +25,6 @@ public class ExcelReader {
 	String columnHeaderName;
 	
 	public static String excelFilePath = "./src/test/resources/Apibootcamp_data.xlsx";
-	
-	
-	
 	public String getCellData(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(excelFilePath);
@@ -40,7 +36,7 @@ public class ExcelReader {
 		DataFormatter formatter = new DataFormatter();
 		String data;
 		try{
-			data = formatter.formatCellValue(cell); //Returns the formatted value of a cell as a String regardless of the cell type.
+			data = formatter.formatCellValue(cell);
 		}
 		catch(Exception e)
 		{

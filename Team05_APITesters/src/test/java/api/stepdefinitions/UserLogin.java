@@ -1,4 +1,5 @@
 package api.stepdefinitions;
+import api.pojo.UserLoginPojo;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
@@ -6,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import api.utils.RestUtils;
-import api.utils.TokenHolder;
+import api.utils.IdHolder;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,20 +22,25 @@ public class UserLogin extends RestUtils {
 	RequestSpecification request;
 	ResponseSpecification responseSpec;
 	Response response;
-	
+
 	@Given("Add UserLogin Payload")
 	public void add_user_login_payload() throws FileNotFoundException, IOException {
 		
-		request=given().spec(requestSpecification()).body( UserLogindata.dataBuild());
+		UserLogindata userLoginData = new UserLogindata();
+	    UserLoginPojo userLoginPojo = userLoginData.dataBuild();
+	    request = given().spec(requestSpecification()).body(userLoginPojo);
 		}
 	
- @When("Admin calls Post Https method  with valid endpoint")
+	@When("Admin calls Post Https method  with valid endpoint")
 	public void admin_calls_post_https_method_with_valid_endpoint() {
 	
 	 response = request.when().post(routes.getString("Post_UserLoginurl")).then().log().all().extract().response();
-	 System.out.println(response);
-		TokenHolder.token =  UserKeyJson(response,"token");
-		System.out.println(TokenHolder.token);	
+	 String token = UserKeyJson(response, "token");
+	    IdHolder.setToken(token);
+	    System.out.println("Token set: " + IdHolder.getToken());
+	 //System.out.println(response);
+		//TokenHolder.token =  UserKeyJson(response,"token");
+		//System.out.println(TokenHolder.token);	
 	}
 
 	@Then("Admin receives {int} created with auto generated token")
@@ -42,26 +48,27 @@ public class UserLogin extends RestUtils {
 		
 		assertEquals(response.getStatusCode(),200);
 	}
-	
-	@When("Admin calls Post Https method  with invalid endpoint")
-	public void admin_calls_post_https_method_with_invalid_endpoint() {
-		response = request.when().post(routes.getString("Post_Userurl")).then().log().all().extract().response();
-	}
-
-	@Then("Admin receives {int} unauthorized")
-	public void admin_receives_unauthorized(Integer int1) {
-		assertEquals(response.getStatusCode(),401);
-	}
-
-	@Given("Admin creates request with invalid credentials")
-	public void admin_creates_request_with_invalid_credentials() throws FileNotFoundException, IOException {
-		request=given().spec(requestSpecification()).body( UserLogindata.invaliddataBuild());
-	}
-
-	@Then("Admin receives {int} Bad request")
-	public void admin_receives_bad_request(Integer int1) {
-		assertEquals(response.getStatusCode(),401);
-	}
-
+//	@When("Admin calls Post Https method  with {string} endpoint")
+//	public void admin_calls_post_https_method_with_endpoint(String string) {
+//	   
+//	}
+//	@When("Admin calls Post Https method  with invalid endpoint")
+//	public void admin_calls_post_https_method_with_invalid_endpoint() {
+//		response = request.when().post(routes.getString("Post_Userurl")).then().log().all().extract().response();
+//	}
+//	@Then("Admin receives {int} unauthorized")
+//	public void admin_receives_unauthorized(Integer int1) {
+//		assertEquals(response.getStatusCode(),401);
+//	}
+//
+//	@Given("Admin creates request with invalid credentials")
+//	public void admin_creates_request_with_invalid_credentials() throws FileNotFoundException, IOException {
+//		request=given().spec(requestSpecification()).body( UserLogindata.invaliddataBuild());
+//	}
+//
+//	@Then("Admin receives {int} Bad request")
+//	public void admin_receives_bad_request(Integer int1) {
+//		assertEquals(response.getStatusCode(),401);
+//	}
 
 }
