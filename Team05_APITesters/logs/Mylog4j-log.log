@@ -1,0 +1,102 @@
+[INFO ] 2024-03-30 14:48:45.470 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 14:48:45.847 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 14:48:46.129 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 14:52:44.905 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 14:52:45.059 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 14:52:45.420 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 14:54:35.068 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 14:54:35.233 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 14:54:35.528 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 14:54:35.716 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:00:28.758 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:00:29.056 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:00:29.359 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:00:29.530 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:02:14.766 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:02:14.920 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:02:15.182 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:02:15.340 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:05:16.333 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:05:16.816 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:05:16.985 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:09:13.541 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:09:13.714 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:09:13.985 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:09:14.140 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:32:13.450 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:32:13.609 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:32:13.878 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:32:14.041 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 15:43:07.430 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:54:36.967 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:59:08.369 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 15:59:08.539 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 15:59:08.821 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 15:59:08.977 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 16:02:48.927 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 16:02:49.085 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 16:02:49.331 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 16:02:49.490 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 16:06:25.675 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 16:06:25.982 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 16:06:26.236 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 16:06:26.399 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 16:30:44.674 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 16:30:44.827 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 16:30:45.076 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 16:30:45.222 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 16:33:29.225 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 16:33:29.386 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 16:33:29.626 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 16:33:29.792 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 16:51:44.984 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 16:51:45.154 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 16:51:45.419 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 16:51:45.575 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:00:47.100 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:00:47.271 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:00:47.563 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:00:47.726 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:11:22.436 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:11:22.597 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:11:22.865 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:11:23.023 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:25:45.214 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:25:45.359 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:25:45.617 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:25:45.768 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:29:35.831 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:29:35.983 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:29:36.223 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:29:36.385 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:31:53.179 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:31:53.339 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:31:53.599 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:31:53.752 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:39:32.952 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:39:33.095 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:39:33.355 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:39:33.509 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 17:41:04.731 [main] java - ===========Negative with invalid endpoint =====================  
+[INFO ] 2024-03-30 17:41:04.875 [main] java - ===========Negative of active and inactive Admins =====================  
+[INFO ] 2024-03-30 17:41:06.141 [main] java - ===========Negative with invalid batchId =====================  
+[INFO ] 2024-03-30 17:41:06.299 [main] java - ===========Negative with invalid ProgramId =====================  
+[INFO ] 2024-03-30 18:14:11.588 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 11:04:27.366 [main] java - =========== Get count of active and inactive users  HTTPS Request =====================  
+[INFO ] 2024-03-31 11:05:50.958 [main] java - =========== Get count of active and inactive users  HTTPS Request =====================  
+[INFO ] 2024-03-31 12:32:40.999 [main] java - =========== Get count of active and inactive users  HTTPS Request =====================  
+[INFO ] 2024-03-31 12:32:41.417 [main] java - =========== Get All Active Users HTTPS Request=====================  
+[INFO ] 2024-03-31 12:32:42.009 [main] java - =========== Gets Users with valid role ID=====================  
+[INFO ] 2024-03-31 12:41:02.599 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 12:41:03.053 [main] java - ===========User POST request =====================  
+[INFO ] 2024-03-31 12:46:45.219 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 12:46:45.689 [main] java - ===========User POST request =====================  
+[INFO ] 2024-03-31 13:00:03.224 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 13:00:04.131 [main] java - ===========User POST request =====================  
+[INFO ] 2024-03-31 13:05:27.054 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 13:05:27.530 [main] java - ===========User POST request =====================  
+[INFO ] 2024-03-31 13:10:56.271 [main] java - ===========POST request with all mandatory fields=====================  
+[INFO ] 2024-03-31 13:10:56.893 [main] java - ===========User POST request =====================  
+[INFO ] 2024-03-31 13:10:57.314 [main] java - =========== Get User by Program Batches=====================  
+[INFO ] 2024-03-31 13:10:57.476 [main] java - =========== Gets Users for Program=====================  
+[INFO ] 2024-03-31 14:18:40.662 [main] java - User has logged out successfully

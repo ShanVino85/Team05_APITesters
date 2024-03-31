@@ -23,7 +23,7 @@ ExcelReader er = new ExcelReader();
 		UserLoginPojo dl = new UserLoginPojo();
 		
 		dl.setPassword(er.getCellData("UserLogin", 1, 0));
-		dl.setUserLoginEmailId(er.getCellData("UserLogin", 0, 1));
+		dl.setUserLoginEmailId(er.getCellData("UserLogin", 1, 3));
 		
 		return dl;
 	}

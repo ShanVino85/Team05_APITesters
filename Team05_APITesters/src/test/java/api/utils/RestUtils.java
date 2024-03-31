@@ -5,6 +5,8 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.ResourceBundle;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -21,10 +23,13 @@ public class RestUtils {
 	
 	public static RequestSpecification req;
 	public static Response response;
-	public static String token;
+	public static ResponseSpecification resSpec;
 	
 
 	public static ResourceBundle routes = ResourceBundle.getBundle("Routes");
+	
+	
+
 	
 	public RequestSpecification requestSpecification() throws FileNotFoundException {
 		
@@ -42,15 +47,18 @@ public class RestUtils {
 	}
 	
 	public ResponseSpecification resSpecBuilder() {
-		ResponseSpecification resSpec = new ResponseSpecBuilder()
-				.expectStatusCode(200).expectContentType(ContentType.JSON)
-				.build().then().log().all();
+		 resSpec = new ResponseSpecBuilder()
+				.expectContentType(ContentType.JSON)
+				.build();
 		return resSpec;
 	}
+	// resspec=new ResponseSpecBuilder().expectStatusCode(200).expectContentType("application/json;charset=UTF-8").build();
+	
 	public String UserKeyJson(Response response, String key) {
 		String getResponse = response.asString();
 		JsonPath js = new JsonPath(getResponse);
-		String value = js.get(key);
+		String value = js.getString(key);
+		
 		return value;
 	}
 	

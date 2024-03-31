@@ -25,7 +25,7 @@ public class ExcelReader {
 	String data;
 	String columnHeaderName;
 	
-	public static String excelFilePath = "./src/test/resources/Apibootcamp_data.xlsx";
+	public static String excelFilePath = "./src/test/resources/Team05_APITestersData.xlsx";
 	
 	
 	
