@@ -7,21 +7,23 @@ import java.util.ResourceBundle;
 
 
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 
 public class RestUtils {
 	
 	public static RequestSpecification req;
 	public static Response response;
+	//public static String bearerToken = "0";
+	//public static String userId = "0";
 	
-	
-
 	public static ResourceBundle routes = ResourceBundle.getBundle("Routes");
 	
 	public RequestSpecification requestSpecification() throws FileNotFoundException {
@@ -29,7 +31,7 @@ public class RestUtils {
 		if(req==null)
 		{
 		PrintStream log=new PrintStream (new FileOutputStream("logging.txt"));
-		 req=new RequestSpecBuilder().setBaseUri(routes.getString("base_url")).addQueryParam("Key", "qaclick123")
+		 req=new RequestSpecBuilder().setBaseUri(routes.getString("base_url"))
 				 .addFilter(RequestLoggingFilter.logRequestTo(log))
 				 .addFilter(ResponseLoggingFilter.logResponseTo(log))
 				.setContentType(ContentType.JSON)
@@ -38,12 +40,18 @@ public class RestUtils {
 		}
 		return req;
 	}
-public String getJsonPath(Response response,String Key) {
-	
-	String resp=response.asString();
-    JsonPath js=new JsonPath(resp);
- 
-  return js.get(Key).toString();
-}
+	public ResponseSpecification resSpecBuilder() {
+		ResponseSpecification resSpec = new ResponseSpecBuilder()
+				.expectContentType(ContentType.JSON)
+				.build().then().log().all();
+		return resSpec;
+	}
+	public String UserKeyJson(Response response, String key) {
+		String getResponse = response.asString();
+		JsonPath js = new JsonPath(getResponse);
+		String value = js.get(key);
+		return value;
+	}
+
 	
 }

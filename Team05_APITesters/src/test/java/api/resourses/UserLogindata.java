@@ -22,12 +22,20 @@ ExcelReader er = new ExcelReader();
 		
 		UserLoginPojo dl = new UserLoginPojo();
 		
-		dl.setPassword(er.getCellData("UserLogin", 1, 0));
-		dl.setUserLoginEmailId(er.getCellData("UserLogin", 0, 1));
+		dl.setPassword(er.getCellData("UserLogin", 1, 2));
+		dl.setUserLoginEmailId(er.getCellData("UserLogin", 1, 2));
 		
 		return dl;
 	}
 	
-	
+ public UserLoginPojo missingdataBuild() throws IOException {
+		
+		UserLoginPojo dl = new UserLoginPojo();
+		
+		dl.setPassword(er.getCellData("UserLogin", 1, 3));
+		dl.setUserLoginEmailId(er.getCellData("UserLogin", 1, 1));
+		
+		return dl;
+	}
 
 }

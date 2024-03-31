@@ -1,0 +1,227 @@
+['INFO ]2024-03-30 13:00:11,982(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 13:00:15,621(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgxODAxNSwiZXhwIjoxNzExODQ2ODE1fQ.m_suDk8lL9CuVXQURL1sH93G66b1Ah21wWGTRF0NfxW-xm3uB3c7NgMrsRywL8oGnXkPIJDjCPuFKUhie4yWaA
+['INFO ]2024-03-30 13:00:16,123(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 13:00:16,664(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U873
+['INFO ]2024-03-30 13:00:16,671(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 13:00:17,669(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 13:00:17,727(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 13:00:17,733(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 16:10:51,929(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 16:10:55,386(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgyOTQ1NCwiZXhwIjoxNzExODU4MjU0fQ.tOs8f38RtyGMyCV1uS4oudoVyIKbC8CmJE73_qxnjuyjTLLiaR-FGDg5ogjiYpUQoy1POms4srl7vw31NBweDw
+['INFO ]2024-03-30 16:10:55,953(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 16:10:56,491(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U957
+['INFO ]2024-03-30 16:10:56,499(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 16:10:57,517(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 16:10:57,579(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 16:10:57,586(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 16:40:03,238(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 16:40:06,741(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgzMTIwNiwiZXhwIjoxNzExODYwMDA2fQ.Auz_2qSuLJYj53GY9ZXX7fwN7rN34KBFPZxRYvqvO8QN8EgW65wqdUZ6k56IPKUSW5-KY4jCzj9IjK5WnAlbzA
+['INFO ]2024-03-30 16:40:07,187(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 16:40:07,376(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 16:40:08,397(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 16:40:08,439(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 16:40:08,445(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 16:41:18,172(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 16:41:21,337(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgzMTI4MCwiZXhwIjoxNzExODYwMDgwfQ.fsXQPnO99mbs5bvJ92b_jEj6SFmvD-K0-pSBVPNomzKCofTtD07DpttitPB7BMN5jy7QaqTH7ERgK65fQkMZwA
+['INFO ]2024-03-30 16:41:21,870(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 16:41:22,369(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U967
+['INFO ]2024-03-30 16:41:22,377(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 16:41:23,582(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 16:41:23,623(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 16:41:23,629(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 18:07:06,991(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 18:07:10,726(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgzNjQzMCwiZXhwIjoxNzExODY1MjMwfQ.fUE2bJiJ2NqpgySWVUf1IgcdK8g357MeLGmpQqUq49M0HPGSMnFkVuftfNq8NaKxBfhsQ_7kMteqFmXb60ZEYw
+['INFO ]2024-03-30 18:07:11,332(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 18:07:11,848(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1044
+['INFO ]2024-03-30 18:07:11,855(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 18:07:12,886(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 18:07:12,931(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 18:07:12,939(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 18:07:13,259(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 18:07:13,259(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 400
+['INFO ]2024-03-30 18:07:13,260(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User Request unsuccessful
+['INFO ]2024-03-30 18:11:27,039(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 18:11:30,550(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgzNjY4OSwiZXhwIjoxNzExODY1NDg5fQ.rUhqOww-gkX66gbvC7PrGDZxbj7Dg7ZyQcmEYmEU9kIJMlERUijrrfYasi9Y5bK09kDMAbGdfRwINo0Bzu5-IQ
+['INFO ]2024-03-30 18:11:31,524(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 18:11:32,070(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1049
+['INFO ]2024-03-30 18:11:32,079(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 18:11:33,201(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 18:11:33,252(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 18:11:33,269(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 18:11:33,639(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :Canada-Citizen
+['INFO ]2024-03-30 18:11:33,640(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 18:11:33,642(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 18:18:24,536(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 18:18:28,355(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTgzNzEwNywiZXhwIjoxNzExODY1OTA3fQ.ynFr2klyTwyuyrI1LHgnw1hr8BMESCWr5ZKFZKtqARkCT5QBY6PUvyJtjdJjJJo9wa-LXh4zAjVeQKkxINPMsw
+['INFO ]2024-03-30 18:46:55,397(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 18:46:56,544(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 18:46:56,724(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 401
+['INFO ]2024-03-30 18:46:56,765(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 19:24:31,118(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 19:24:34,682(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg0MTA3NCwiZXhwIjoxNzExODY5ODc0fQ.19tOVM6zxjjJxG5hZ2x0iqI5OeYtturAdVl-Ox8P-BnrICETIJ3wSzXKcWx7cNHHtDjRIHwpqPl_t6saW5rkpw
+['INFO ]2024-03-30 19:24:35,583(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 19:24:36,110(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1085
+['INFO ]2024-03-30 19:24:36,164(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 19:24:37,206(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 19:24:37,240(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 19:24:37,247(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 19:24:37,566(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :Canada-Citizen
+['INFO ]2024-03-30 19:24:37,567(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 19:24:37,568(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 19:24:37,574(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 19:24:37,788(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 19:24:37,788(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 19:24:37,788(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:02:20,768(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:02:24,296(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NDE0MywiZXhwIjoxNzExODgyOTQzfQ.a2J-V4tNqCB4yqSXScJYZQ_w5cVYxFtcaRInhU8Dc8579i4b8I9ksD-DBjEKFVNGNJldb_EN_kpPAgJnERMTaQ
+['INFO ]2024-03-30 23:02:26,113(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:02:27,396(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:02:27,438(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:18:22,510(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:18:26,110(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NTEwNSwiZXhwIjoxNzExODgzOTA1fQ.w98Wucrg2Br32hhDZ-MJug4nPer65V3TjCrKn2LOZYK08F05-JEd3inTVLD1KG4WuCrnf3naIrYHsecek7znsQ
+['INFO ]2024-03-30 23:18:27,883(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:18:29,070(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:18:29,116(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:18:29,124(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:18:29,488(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:18:29,488(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:18:29,497(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:18:29,723(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:18:29,723(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:18:29,723(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:31:45,250(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:31:48,467(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NTkwOCwiZXhwIjoxNzExODg0NzA4fQ.AO8FsmJlnzLSDN-ABAoQSe59US_TfbTUcb68H8R3ETTSGRnJsh0NL_btYSQigr5-8ewlLt8gN-NNCklcQ-dWhA
+['INFO ]2024-03-30 23:31:48,745(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:31:49,951(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:31:49,985(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:31:49,992(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:31:50,568(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:31:50,569(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:31:50,577(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:31:50,892(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:31:50,892(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:31:50,893(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:38:51,229(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:38:54,464(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NjMzNCwiZXhwIjoxNzExODg1MTM0fQ.6XZ-BoCuhvJAiY83Domt4uJTiAHcfYEB990ux3tPS6w-XFpBc6VdjA-5HfY8f3qgCBA36ws_6vuN09nU3Ad7-Q
+['INFO ]2024-03-30 23:38:56,188(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:38:57,361(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:38:57,387(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:38:57,395(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:38:57,676(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:38:57,677(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:38:57,683(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:38:57,902(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:38:57,903(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:38:57,903(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:41:02,554(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:41:05,829(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NjQ2NSwiZXhwIjoxNzExODg1MjY1fQ.k-oznVO2-yAwlHVtpd2i3VffkJEf8VYz_0Szx57Ib0TaRjkrcZi0Y4mp2o3GhEr7avR2N2vSu7yFB90GvL8LBA
+['INFO ]2024-03-30 23:41:06,709(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 23:41:06,909(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:41:08,092(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:41:08,124(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:41:08,132(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:41:08,489(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:41:08,490(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:41:08,497(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:41:08,739(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:41:08,739(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:41:08,740(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:45:32,258(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:45:35,725(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NjczNSwiZXhwIjoxNzExODg1NTM1fQ.0RUqPPOTkHCTi1FCfRYHMaXXEFyoRn_mlaRAeuc_djJy01TaZ-rHlhLgCFB5arLaEMUVAJqp2mSpDyDTtCT1yw
+['INFO ]2024-03-30 23:45:36,585(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 23:45:36,776(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:45:37,971(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:45:38,011(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:45:38,024(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:45:38,390(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:45:38,391(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:45:38,395(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:45:38,615(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:45:38,615(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:45:38,615(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:48:09,893(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:48:13,268(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1Njg5MiwiZXhwIjoxNzExODg1NjkyfQ.4f1VBt6ZzKz3cjsvDaepdwYA3r9Y-VpNiTLcTlRQn-VhJELpR_OMga-rfYEmBr9pkU3zLr4ZfIDWEywDHqJDxA
+['INFO ]2024-03-30 23:48:14,119(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 23:48:14,314(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:48:15,593(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:48:15,644(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:48:15,652(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:48:15,993(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:48:15,994(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:48:16,000(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:48:16,211(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:48:16,211(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:48:16,212(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:55:09,592(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-30 23:55:13,102(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg1NzMxMiwiZXhwIjoxNzExODg2MTEyfQ.mP498aSQkOrbFlCtCAfHhx6AHwybznJzVUrf4nOH-yAVB5NMwkM8Y7dJAMWzSl3zRhRqD_cUk8fPkkN-4e16gw
+['INFO ]2024-03-30 23:55:13,968(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-30 23:55:14,174(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-30 23:55:15,381(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-30 23:55:15,416(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-30 23:55:15,423(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-30 23:55:15,724(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:55:15,724(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-30 23:55:15,730(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-30 23:55:15,952(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-30 23:55:15,953(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-30 23:55:15,953(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:10:28,563(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:10:32,237(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg3OTgzMSwiZXhwIjoxNzExOTA4NjMxfQ.r1db0h84TIkGZy9BH2gCJKa5p1KR7XYEoT9jeVCng70B8pA3S8tp7XxI8_WCTY-CrJG8y1l9zwjP44xYrB6QNA
+['INFO ]2024-03-31 06:10:33,035(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:10:33,450(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-31 06:10:35,350(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:10:35,383(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:10:35,388(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-31 06:10:35,712(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-31 06:10:35,712(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:10:35,719(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-31 06:10:35,943(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-31 06:10:35,943(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-31 06:10:35,943(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:20:34,105(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:20:37,311(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg4MDQzNiwiZXhwIjoxNzExOTA5MjM2fQ.qLpWiqYabl0jKxSPa7bl454pj32CmsxNye3yvEbJpUkVk6UiWukDHGltlRGThhFQiebcsZNcquFGtm6weyaK-Q
+['INFO ]2024-03-31 06:20:38,173(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:20:38,380(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-31 06:20:40,032(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:20:40,069(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:20:40,079(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-31 06:20:40,399(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-31 06:20:40,400(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:20:40,408(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-31 06:20:40,630(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-31 06:20:40,630(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-31 06:20:40,630(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:22:45,147(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:22:48,265(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg4MDU2NywiZXhwIjoxNzExOTA5MzY3fQ.gEwO4GBCowrUGoW3Lk8v4xyzQsvZaGzGnF6xOldsBMGw6BH13fZlUWYX8HxJcNfL2fQ7HPAC-zdzGkmc0ek-mg
+['INFO ]2024-03-31 06:22:49,023(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:25:23,793(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:25:27,207(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg4MDcyNiwiZXhwIjoxNzExOTA5NTI2fQ.XYtPLSzNM5J8DxbwQK38V6cr1YGHxsv42XTNoyGxyAALV87f6lSugCy2s6uZS4VV1MSWtKVjf8OFobfOY_ws5A
+['INFO ]2024-03-31 06:25:28,133(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:25:28,628(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1708
+['INFO ]2024-03-31 06:40:50,676(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:40:53,774(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg4MTY1MiwiZXhwIjoxNzExOTEwNDUyfQ.O7Mo2uBjZtJutTNbTO1d21lHDffkyuQqK7P0YJ7wgup_j6nvOAaJ3WMqYjT3jfpvoFuYX5oXu06iy-ppp1xL5w
+['INFO ]2024-03-31 06:40:54,654(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:40:55,108(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1711
+['INFO ]2024-03-31 06:40:55,155(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-31 06:40:56,781(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:40:56,818(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:40:56,826(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-31 06:40:57,185(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :Canada-Citizen
+['INFO ]2024-03-31 06:40:57,186(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:40:57,187(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:40:57,192(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---
+['INFO ]2024-03-31 06:40:57,407(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :null
+['INFO ]2024-03-31 06:40:57,407(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----Updated user by Rolestatus----
+['INFO ]2024-03-31 06:40:57,408(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 404
+['INFO ]2024-03-31 06:49:10,253(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-Post Request sent with valid request body
+['INFO ]2024-03-31 06:49:13,404(yyyy-MM-ddHH:mm:ss.SSS][main]UserLogin.java1)-----User successfully created token------:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTg4MjE1MiwiZXhwIjoxNzExOTEwOTUyfQ.SO3MMH7oxBPJSlvdhotCY5Sva_yxyfTuWekt-2Jp5SNAPTAXcg8fhlyzQKFWFbhj33uOb7bDBTxgIjtvwkDSCw
+['INFO ]2024-03-31 06:49:14,236(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request sent with valid Endpoint and request body
+['INFO ]2024-03-31 06:49:14,827(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-userId got created :U1712
+['INFO ]2024-03-31 06:49:14,882(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Request for Get All users by RoleId v2
+['INFO ]2024-03-31 06:49:16,620(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:49:16,656(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:49:16,665(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Admin Id---
+['INFO ]2024-03-31 06:49:16,988(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-updated userVisaStatus :Canada-Citizen
+['INFO ]2024-03-31 06:49:16,988(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-Response Status is= 200
+['INFO ]2024-03-31 06:49:16,990(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)-User request is successful
+['INFO ]2024-03-31 06:49:16,995(yyyy-MM-ddHH:mm:ss.SSS][main]UserModule.java1)----update user by Rolestatus---

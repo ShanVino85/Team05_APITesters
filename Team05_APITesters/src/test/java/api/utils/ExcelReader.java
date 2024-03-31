@@ -25,7 +25,7 @@ public class ExcelReader {
 	String data;
 	String columnHeaderName;
 	
-	public static String excelFilePath = "./src/test/resources/Googlemap-RestAPI.xlsx";
+	public static String excelFilePath = "./src/test/resources/Api_data.xlsx";
 	
 	
 	
@@ -50,6 +50,25 @@ public class ExcelReader {
 		fi.close();
 		return data;
 	}
+	public void setCellData(String sheetName, int rownum, int colnum, String value) throws IOException {
+        fi = new FileInputStream(excelFilePath);
+        workbook = new XSSFWorkbook(fi);
+        sheet = workbook.getSheet(sheetName);
+        row = sheet.getRow(rownum);
+        if (row == null) {
+            row = sheet.createRow(rownum);
+        }
+        cell = row.getCell(colnum);
+        if (cell == null) {
+            cell = row.createCell(colnum);
+        }
+        cell.setCellValue(value);
+
+        FileOutputStream fo = new FileOutputStream(excelFilePath);
+        workbook.write(fo);
+        workbook.close();
+        fo.close();
+    }
 
 	
 }
