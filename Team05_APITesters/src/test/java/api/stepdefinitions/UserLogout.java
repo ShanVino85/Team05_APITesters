@@ -47,4 +47,27 @@ public class UserLogout extends RestUtils {
 		}
 		logger.info("User has logged out successfully");
 	}
+	//logout2 ----404 Not found-----
+	@When("Admin calls Get Https method with invalid endpoint")
+	public void admin_calls_get_https_method_with_invalid_endpoint() {
+		response = request.when().get(routes.getString("invalid_endpoint")).then().log().all().extract().response();
+		 System.out.println(response);
+		 
+	}
+
+	@Then("Admin receives {int} Not found")
+	public void admin_receives_not_found(int statuscode) {
+		logger.info("request sent with invalid endpoint.So it is 404 Not found");
+	    assertEquals(404, response.getStatusCode());
+	    
+	}
+
+	//@logout3 ----401 unauthorized-----
+	@Given("Admin sets No authorization")
+	public void admin_sets_no_authorization() throws FileNotFoundException {
+		logger.info("Request sent with No Authorization gives 401 unAuthorized");
+		request = given().spec(requestSpecification());
+		
+	}
+
 }
