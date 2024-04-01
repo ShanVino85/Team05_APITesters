@@ -15,7 +15,7 @@ Background: Admin Sets Bearer Token Authentication
   Scenario: Check if admin able to create a new Admin with valid endpoint and request body with mandatory and additional fields
     Given Admin creates POST request with all mandatory fields and an additional fields
     When  Admin sends HTTPS Request with endpoint
-    Then  Admin receives 201 Created Status with response body 
+    Then  Admin receives 201 Created Status with response body
                                                       
   @User_Get_all_roles
   Scenario: Check if admin is able to retreive all the available roles
