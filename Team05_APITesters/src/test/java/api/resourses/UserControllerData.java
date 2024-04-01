@@ -18,7 +18,7 @@ public class UserControllerData {
             try {
                 userId = er.getCellData("UserControllerTestData", rowNumber, 0);
             } catch (NullPointerException e) {
-                System.err.println(" Null value encountered while reading cell data so terminating request");
+                //System.err.println(" Null value encountered while reading cell data so terminating request");
                 break;
             }
 
@@ -26,7 +26,7 @@ public class UserControllerData {
                 break; 
             }
 
-            System.out.println("Reading user ID: " + userId); 
+            //System.out.println("Reading user ID: " + userId); 
             invalidUserIds.add(userId);
             rowNumber++; 
         }

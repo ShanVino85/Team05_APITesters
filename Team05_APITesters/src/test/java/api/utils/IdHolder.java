@@ -3,7 +3,7 @@ package api.utils;
 public class IdHolder {
 
     private static String token;
-    private static String userId;
+    private static String userId = "U6493";
 
     public static String getToken() {
         if (token == null) {
@@ -23,7 +23,9 @@ public class IdHolder {
     }
 
     public static void setUserId(String newUserId) {
+    	
         userId = newUserId;
+       
     }
 
 	

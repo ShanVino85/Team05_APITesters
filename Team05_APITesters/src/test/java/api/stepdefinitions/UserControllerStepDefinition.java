@@ -1,6 +1,9 @@
 package api.stepdefinitions;
 
 import api.resourses.UserControllerData;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import api.resourses.UserLogindata;
 import api.utils.ExcelReader;
 import api.utils.RestUtils;
@@ -13,42 +16,33 @@ import io.restassured.response.Response;
 import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
-import java.lang.System.Logger;
 import java.util.List;
-import java.util.logging.LogManager;
-
 import org.junit.Assert;
-
 public class UserControllerStepDefinition extends RestUtils {
 	private UserControllerData userControllerData = new UserControllerData();
-	
+	Logger logger = LogManager.getLogger("UserControllerStepDefinition.java");
 	   ExcelReader excelReader = new ExcelReader();
 	 
 	private Response response;
 	@Given("Admin sets Authorization to bearer token")
 	public void admin_sets_authorization_to_bearer_token() {
 		
+		logger.info("======Admin sets Authorization to bearer token======");
 		
 	}
 	@When("Admin creates a GET Request to retrieve all Admins assigned to programs or batches")
 	public void admin_creates_a_get_request_to_retrieve_all_admins_assigned_to_programs_or_batches() {
-   	  
-			Response response = RestAssured.given()
-								.header("Authorization", "Bearer " + IdHolder.getToken()) 
-								.get(routes.getString("base_url") + routes.getString("Get_AssignedProgram/Batch(es)ofAllUsers"));	
+		logger.info("======Admin sends Request to retrieve all Admins assigned to programs or batches======");
 			
-			
-			String jsonResponse = response.getBody().asString();
-//		   System.out.println("JSON Response: " + jsonResponse);
-			
-		    Assert.assertEquals(200, response.getStatusCode());
 	}
 
 	@When("Admin sends HTTPS Request")
 	public void admin_sends_https_request() {
-		
-		
-	    
+		Response response = RestAssured.given()
+				.header("Authorization", "Bearer " + IdHolder.getToken()) 
+				.get(routes.getString("base_url") + routes.getString("Get_AssignedProgram/Batch(es)ofAllUsers"));	
+		String jsonResponse = response.getBody().asString();
+		Assert.assertEquals(200, response.getStatusCode());   
 	}
 
 	@Then("Admin receives a {int} OK response")
@@ -59,11 +53,12 @@ public class UserControllerStepDefinition extends RestUtils {
 
 	@Given("Admin sets authorization to No Auth")
 	public void admin_sets_authorization_to_no_auth() {
-		
+		logger.info("======Admin sets no Authorization ======");
 	}
 
 	@When("Admin creates a GET Request to retrieve all Admins assigned to programsor batches")
 	public void admin_creates_a_get_request_to_retrieve_all_admins_assigned_to_programsor_batches() {
+		logger.info("======Admin sends Request without auth to retrieve all Admins assigned to programs or batches======");
 		Response response = RestAssured.given() 
 	            .get(routes.getString("base_url") + routes.getString("Get_AssignedProgram/Batch(es)ofAllUsers"));	
 
@@ -77,8 +72,7 @@ public class UserControllerStepDefinition extends RestUtils {
 
 	@When("Admin creates a GET Request to retrieve Admin assigned to Program or Batch by AdminId")
 	public void admin_creates_a_get_request_to_retrieve_admin_assigned_to_program_or_batch_by_admin_id() {
-		IdHolder.setUserId("U19");
-		//TokenHolder.getUserId();
+
 		response = RestAssured.given()
 	            .header("Authorization", "Bearer " + IdHolder.getToken())
 	            .pathParam("userId", IdHolder.getUserId())
@@ -102,8 +96,7 @@ public class UserControllerStepDefinition extends RestUtils {
 		                .pathParam("userId", IdHolder.getUserId()) 
 		                .get(routes.getString("base_url") + routes.getString("Get_AssignedProgram/BatchofaUserByUserId"));
 		        Assert.assertEquals(404, response.getStatusCode());
-		        //int statusCode = response.getStatusCode();
-		        //System.out.println("Response Status Code for user ID " + TokenHolder.getUserId() + ": " + statusCode);
+		        
 		    } catch (Exception e) {
 		        e.printStackTrace();
 		    }

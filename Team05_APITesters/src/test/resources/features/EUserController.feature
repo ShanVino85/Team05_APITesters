@@ -1,4 +1,4 @@
-Feature: Admin Role Program Batch Mapping
+Feature: Admin Role Program Batch Mapping Controller
 
   Background: 
     Given Admin sets Authorization to bearer token
@@ -29,3 +29,4 @@ Feature: Admin Role Program Batch Mapping
     When Admin creates a GET Request to retrieve Admin assigned to Program or Batch by valid AdminID
     And Admin sends HTTPS Request
     Then Admin receives a status 401 with Unauthorized message
+    
