@@ -50,7 +50,7 @@ public class UserLogout extends RestUtils {
 	//logout2 ----404 Not found-----
 	@When("Admin calls Get Https method with invalid endpoint")
 	public void admin_calls_get_https_method_with_invalid_endpoint() {
-		response = request.when().get(routes.getString("invalid_endpoint")).then().log().all().extract().response();
+		response = request.when().get(routes.getString("invalidUrl")).then().log().all().extract().response();
 		 System.out.println(response);
 		 
 	}
@@ -58,7 +58,7 @@ public class UserLogout extends RestUtils {
 	@Then("Admin receives {int} Not found")
 	public void admin_receives_not_found(int statuscode) {
 		logger.info("request sent with invalid endpoint.So it is 404 Not found");
-	    assertEquals(404, response.getStatusCode());
+	    assertEquals( response.getStatusCode(),404);
 	    
 	}
 
@@ -69,6 +69,11 @@ public class UserLogout extends RestUtils {
 		request = given().spec(requestSpecification());
 		
 	}
+	
+//	@Then("Admin receives status {int} with unauthorized error message	Negative")
+//	public void admin_receives_status_with_unauthorized_error_message_negative(Integer int1) {
+//		assertEquals(401,response.getStatusCode());
+//	}
 
 }
 
